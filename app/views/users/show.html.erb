@@ -1,0 +1,29 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @user.name %>
+</p>
+
+<p>
+  <strong>Aadhar:</strong>
+  <img class="img-thumbnail" src="<%= @user.aadhar %>" width="50"/>
+</p>
+
+<p>
+  <strong>Birth date:</strong>
+  <%= @user.b_date&.strftime("%d-%b-%Y") %>
+</p>
+
+<p>
+  <strong>Parent:</strong>
+  <%= @user.parent.name %>
+</p>
+
+<p>
+  <strong>Chield:</strong>
+  <%= @user.chield.name %>
+</p>
+
+<%= link_to fa_icon('pencil-square-o'), edit_user_path(@user) %> |
+<%= link_to fa_icon('arrow-left'), users_path %>

@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  name: MyString
+  aadhar: MyString
+  b_date: 2020-01-22 14:49:12
+  parent_id: 1
+  chield_id: 1
+
+two:
+  name: MyString
+  aadhar: MyString
+  b_date: 2020-01-22 14:49:12
+  parent_id: 1
+  chield_id: 1
